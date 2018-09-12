@@ -10,7 +10,7 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    //ïœÇ¶ÇΩ
+    //Â§â„Åà„Åü
     //proxyTable: {},
     proxyTable: {
       '/api/*': {
@@ -18,7 +18,7 @@ module.exports = {
         secure: false
       }
     },
-    //Ç±Ç±Ç‹Ç≈
+    //„Åì„Åì„Åæ„Åß
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
@@ -58,7 +58,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: '',//Â§â„Åà„Åü'/',
 
     /**
      * Source Maps
