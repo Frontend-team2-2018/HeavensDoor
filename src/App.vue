@@ -1,13 +1,20 @@
 <template>
-  <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
-    <router-view/>
+  <div>
+    <menu-header />
+    <div id="container"><!-- <div id="app"> -->
+      <!-- <img src="./assets/logo.png"> -->
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
+import MenuHeader from '@/components/header/MenuHeader.vue'
 export default {
-  name: 'App'
+  name: 'app',//name: 'App',
+  components: {
+      MenuHeader
+    }
 }
 </script>
 
